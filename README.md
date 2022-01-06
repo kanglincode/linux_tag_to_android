@@ -19,3 +19,15 @@ git push -u origin master
 
 把git上远程库的代码克隆到本地并运行  
 git clone +'远程仓库的ssh或者https地址'
+
+撤销某笔提交
+1.git reset HEAD^
+  HEAD^上一个版本 
+
+2.git checkout filename 
+  --soft //撤销commit 不撤销git add 
+  --hard //撤销commot 撤销git add  
+  
+3.git push origin -f  
+  撤销掉远端的提交
+
