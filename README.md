@@ -14,6 +14,8 @@ git remote add origin 你的远程库地址
 git push -u origin master
 
 ////////////////////////////////////////
+
+
 把git上远程库的代码克隆到本地并运行
 git clone +'远程仓库的ssh或者https地址'
 
